@@ -296,22 +296,32 @@ Nhóm ghi lại đầy đủ vì đây là phần phản ánh trung thực nhấ
 | 21 | **§3** | Phần "Ba dự đoán ăn khớp thế nào" + "Rủi ro chung" | AI làm, nhóm giữ lại | Nhóm giữ vì nó buộc 3 dự đoán nối về cùng một nghịch lý (doanh thu +48% nhưng cổ phiếu −52%), và vì phần "Rủi ro chung" thừa nhận giới hạn của chính bài phân tích |
 | 22 | Trình bày | Format bảng, đánh số mục, gắn link | AI làm | Nhóm rà lại để bảng không vỡ và mọi link đều bấm được |
 
-### 4.2 Ba chỗ AI làm sai / làm thiếu mà nhóm phải can thiệp
+### 4.2 Ba lỗi nhóm tự mắc ở §1–§2 mà AI bắt được
 
-Ghi lại để chứng minh nhóm **không** dùng AI một chiều:
+Ghi lại trung thực vì đây là chỗ nhóm học được nhiều nhất — cả ba lỗi đều nằm trong phần **nhóm tự viết**, không phải phần AI viết:
 
-1. **AI ban đầu nhận số liệu có sẵn mà không kiểm tra ngày.** Bảng §2.1 lúc đầu gán NDR 136% cho ngày 31/12/2025 — sai gần 8 tháng. Bài học: **con số đúng + mốc thời gian sai = số liệu sai.** Nhóm bổ sung quy tắc: mọi số phải kèm kỳ báo cáo cụ thể.
+1. **Số đúng nhưng mốc thời gian sai.** Hải Đăng lấy NDR 136% từ một bài tổng hợp và gán cho ngày 31/12/2025, trong khi đó là số của **Q2 FY2026** — lệch gần 8 tháng. Bài học: **con số đúng + mốc thời gian sai = số liệu sai.** Nhóm bổ sung quy tắc: mọi số phải kèm kỳ báo cáo cụ thể và truy về đúng bản gốc, không lấy qua bài tổng hợp trung gian.
 
-2. **AI dựng bảng đối thủ trông rất đầy đủ nhưng trả lời sai câu hỏi.** §2.3 bản đầu liệt kê Sketch, Adobe XD, Penpot, InVision — đẹp, có số, có nguồn, nhưng **cả 4 đều đã chết hoặc đóng băng**. Nó trả lời "vì sao Figma thắng 2016–2024" trong khi đề bài hỏi về 2026. Bài học: **AI dễ tạo ra thứ trông đúng format nhưng lệch câu hỏi** — người dùng phải tự kiểm tra "cái này đang trả lời câu hỏi nào?"
+2. **Bảng đối thủ đầy đủ nhưng trả lời sai câu hỏi.** §2.3 bản gốc liệt kê Sketch, Adobe XD, Penpot, InVision — có số, có nguồn, format chuẩn, nhưng **cả 4 đều đã chết hoặc đóng băng**. Nó trả lời "vì sao Figma thắng 2016–2024" trong khi đề bài hỏi về 2026. Nặng hơn: InVision đã **đóng cửa hoàn toàn từ 31/12/2024** mà vẫn được ghi là còn 7,6% thị phần. Bài học: **một bảng trông đúng format vẫn có thể lệch hoàn toàn câu hỏi** — phải luôn tự hỏi "cái này đang trả lời câu hỏi nào, và có phải câu hỏi của đề không?"
 
-3. **AI không tự phát hiện mâu thuẫn cho tới khi được yêu cầu kiểm tra chéo.** Câu mở đầu memo ("Figma không còn phổ biến") mâu thuẫn trực tiếp với §2 (82,3% thị phần) nhưng tồn tại song song nhiều bản nháp. Bài học: **phải chủ động yêu cầu AI đối chiếu các phần với nhau**, vì mặc định nó xử lý từng phần độc lập.
+3. **Áp đúng khung nhưng sai thời điểm.** §2.6 dùng khung 4 forces chuẩn, nhưng đặt "Push" = lực đẩy khỏi Sketch/Adobe XD — tức đang phân tích cuộc chuyển đổi **2016**, không phải cuộc chuyển đổi 2026. Mà giải pháp hiện tại của user năm 2026 chính là Figma, nên "Push" phải là lực đẩy user **rời khỏi Figma**. Sai lệch này khiến phân tích switching cost trông vững hơn thực tế. Bài học: **khung phân tích chỉ đúng khi xác định đúng "giải pháp hiện tại" là gì tại thời điểm đang xét.**
 
-### 4.3 Nguyên tắc dùng AI nhóm rút ra sau bài này
+### 4.3 Hai giới hạn của AI mà nhóm quan sát được
+
+Để cân bằng, nhóm ghi lại cả chỗ AI **không** giúp được:
+
+1. **AI không tự phát hiện mâu thuẫn giữa các phần cho tới khi được yêu cầu.** Câu mở đầu memo ("Figma không còn phổ biến") mâu thuẫn trực tiếp với §2 (82,3% thị phần, doanh thu +48%) nhưng tồn tại song song qua nhiều bản. AI chỉ chỉ ra khi nhóm yêu cầu **kiểm tra chéo cả bài**, không tự nêu khi được yêu cầu viết tiếp. Bài học: mặc định AI xử lý từng phần độc lập — muốn bắt mâu thuẫn phải yêu cầu rõ.
+
+2. **AI không thể đảm bảo dự đoán §3 là đúng.** Nhóm có yêu cầu "làm sao cho mọi dự đoán đều đúng", và AI nói thẳng là không đảm bảo được với dự đoán tương lai. Thay vào đó nhóm chấp nhận cách làm chặt hơn: chỉ dự đoán phần **kéo dài quỹ đạo Figma đã công bố** (đã lên waitlist, đã beta, lãnh đạo đã phát biểu trên earnings call), và mỗi dự đoán bắt buộc kèm **điều kiện phản chứng**.
+
+### 4.4 Nguyên tắc dùng AI nhóm rút ra sau bài này
 
 | Nguyên tắc | Vì sao |
 |---|---|
-| Dùng AI để **tìm nguồn**, không dùng AI để **làm nguồn** | Mọi số liệu trong memo đều truy được về hồ sơ SEC, thông cáo IR, earnings call, hoặc blog chính chủ Figma — không có số nào chỉ do AI "nhớ" |
+| **Tự làm nghiên cứu trước, AI kiểm chứng sau** | §1 và §2 nhóm tự viết trọn vẹn rồi mới đưa AI soát. Nhờ vậy nhóm hiểu nội dung đủ sâu để **phán xét được** những gì AI sửa — nếu để AI viết trước, nhóm sẽ không đủ nền để biết nó đúng hay sai |
+| Dùng AI để **tìm nguồn**, không dùng AI để **làm nguồn** | Mọi số liệu đều truy được về hồ sơ SEC, thông cáo IR, earnings call, hoặc blog chính chủ Figma — không có số nào chỉ do AI "nhớ" |
 | Ưu tiên **hồ sơ pháp lý** hơn bài blog | S-1 và báo cáo quý bị ràng buộc trách nhiệm pháp lý; blog thì không |
+| Không lấy số qua **bài tổng hợp trung gian** | Lỗi NDR 136% xảy ra đúng vì lấy số qua bài tổng hợp thay vì bản gốc |
 | Mọi dự đoán phải có **điều kiện phản chứng** | Dự đoán không thể sai được là dự đoán vô giá trị. Đây là rào chắn chống việc AI viết ra thứ nghe thuyết phục mà rỗng |
-| Bắt AI **tự chỉ ra chỗ nó có thể sai** | Ba lỗi logic lớn nhất của memo chỉ lộ ra khi nhóm yêu cầu kiểm tra chéo, không lộ ra khi yêu cầu viết tiếp |
-| Phán đoán cuối cùng thuộc về nhóm | AI đề xuất 12 mốc, nhóm chọn 6. AI đề xuất 6 hướng dự đoán, nhóm chọn 3. Tiêu chí lựa chọn là phần nhóm phải tự bảo vệ khi được hỏi |
+| Phải **chủ động yêu cầu AI kiểm tra chéo** toàn bài | Cả 3 lỗi ở 4.2 và mâu thuẫn ở câu mở đầu chỉ lộ ra khi nhóm yêu cầu soát lại, không lộ ra khi yêu cầu viết tiếp |
+| Phán đoán cuối cùng thuộc về nhóm | AI đề xuất sửa gì thì nhóm vẫn phải tự quyết giữ hay bỏ — ví dụ nhóm chọn **giữ** luận điểm gốc ở câu mở đầu và chỉ sửa lại cho chính xác, thay vì bỏ theo gợi ý |
