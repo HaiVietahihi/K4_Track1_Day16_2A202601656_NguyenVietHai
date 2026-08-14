@@ -15,14 +15,15 @@ Vì trước thời điểm AI bùng nổ, Figma là một công cụ mạnh m�
 *(6–8 hàng, mỗi hàng kèm link nguồn gốc)*
 
 **Vì sao chọn những mốc này:** (2–3 câu — đâu là mốc nhóm đã loại ra và vì sao)
+Những mốc được chọn là những mốc đánh dấu sự thay đổi lớn trong sự phát triển của Figma trong cuộc đua AI trong thời gian vừa qua. Những mốc không được chọn là những mốc đánh dấu sự phát triển của Figma nhưng không liên quan đến AI hoặc những thay đổi nhỏ liên quan đến bao nhiêu lượt người dùng được sử dụng AI.
 
 **§2. Tệp user & JTBD**
 
-| | Early adopters | Tệp hiện tại |
-|---|---|---|
-| Đặc điểm | | |
-| JTBD chính | | |
-| Trước đó họ làm bằng cách nào | | |
+|                               | Early adopters | Tệp hiện tại |
+| -------------------------------| ----------------| --------------|
+| Đặc điểm                      |                |              |
+| JTBD chính                    |                |              |
+| Trước đó họ làm bằng cách nào |                |              |
 
 **Dịch chuyển tệp:** cột mốc nào ở §1 gây ra sự dịch chuyển? Tại sao?
 
@@ -44,7 +45,7 @@ Vì trước thời điểm AI bùng nổ, Figma là một công cụ mạnh m�
 
 **§4. AI Log**
 
-| Việc | AI làm hay nhóm làm? | Nhóm kiểm chứng/phán đoán lại thế nào? |
-|---|---|---|
-| | | |
-| | | |
+| Việc                         | AI làm hay nhóm làm? | Nhóm kiểm chứng/phán đoán lại thế nào?                                |
+| ------------------------------| ----------------------| -----------------------------------------------------------------------|
+| tổng hợp các nguồn của Figma | AI làm               | tổng hợp lại, tìm thêm thông tin và xác minh các nguồn do AI tìm được |
+|                              |                      |                                                                       |
